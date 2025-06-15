@@ -1,0 +1,412 @@
+﻿@model Producto
+
+<section id="selling-product" class="single-product mt-0 mt-md-5">
+    <div class="container-lg">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#">Inicio</a>
+            <a class="breadcrumb-item" href="#">Categoria</a>
+            <span class="breadcrumb-item active" aria-current="page">Blusas</span>
+        </nav>
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-md-12 col-lg-2" style="margin-top:7px">
+                        <!-- product-thumbnail-slider -->
+                        <div class="swiper product-thumbnail-slider">
+                            <div class="swiper-wrapper">
+                                @foreach (var img in Model.Imagenes)
+                                {
+                                    <div class="swiper-slide">
+                                        <img src="@Url.Content(img)" alt="" class="thumb-image img-fluid">
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <!-- / product-thumbnail-slider -->
+                    </div>
+                    <div class="col-md-12 col-lg-10">
+                        <!-- product-large-slider -->
+                        <div class="swiper product-large-slider">
+                            <div class="swiper-wrapper">
+                                @foreach (var img in Model.Imagenes)
+                                {
+                                    <div class="swiper-slide">
+                                        <div class="image-zoom" data-scale="2.5">
+                                            <img src="@Url.Content(img)" alt="product-large" class="img-fluid">
+                                        </div>
+                                        
+                                    </div>
+                                }
+                                @* <div class="swiper-slide">
+                                    <div class="image-zoom" data-scale="2.5" data-image="~/images/product-large-1.jpg">
+                                        <img src="@Url.Content("~/images/Blusas/Blusa1.png")" alt="product-large" class="img-fluid" style=" min-height:600px; object-fit:cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-zoom" data-scale="2.5" data-image="~/images/product-large-2.jpg">
+                                        <img src="@Url.Content("~/images/Blusas/Blusa1-1.png")" alt="product-large" class="img-fluid" style=" min-height:600px; object-fit:cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-zoom" data-scale="2.5" data-image="~/images/product-large-3.jpg">
+                                        <img src="@Url.Content("~/images/Blusas/Blusa1-2.png")" alt="product-large" class="img-fluid" style=" min-height:600px; object-fit:cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-zoom" data-scale="2.5" data-image="~/images/product-large-4.jpg">
+                                        <img src="@Url.Content("~/images/Blusas/Blusa1-3.png")" alt="product-large" class="img-fluid" style=" min-height:600px; object-fit:cover">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-zoom" data-scale="2.5" data-image="~/images/product-large-5.jpg">
+                                        <img src="@Url.Content("~/images/Blusas/Blusa1-4.png")" alt="product-large" class="img-fluid" style=" min-height:600px; object-fit:cover">
+                                    </div>
+                                </div> *@
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- / product-large-slider -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="product-info">
+                    <div class="element-header">
+                        <h2 itemprop="name" class="text-capitalize">@Model.Nombre</h2>
+                        <div class="rating-container d-flex gap-0 align-items-center">
+                            <span class="rating me-2">
+                                <svg width="24" height="24" class="text-warning"><use xlink:href="#star-full"></use></svg>
+                                <svg width="24" height="24" class="text-warning"><use xlink:href="#star-full"></use></svg>
+                                <svg width="24" height="24" class="text-warning"><use xlink:href="#star-full"></use></svg>
+                                <svg width="24" height="24" class="text-warning"><use xlink:href="#star-full"></use></svg>
+                                <svg width="24" height="24" class="text-warning"><use xlink:href="#star-half"></use></svg>
+                            </span>
+                            <span class="rating-count">(4.5)</span>
+                        </div>
+                    </div>
+                    <div class="product-price pt-3 pb-3">
+                        <strong class="text-primary display-6 fw-bold">S/.@Model.Precio</strong>
+                        @if (Model.PrecioAnterior.HasValue)
+                        {
+                            <del class="ms-2">S/.@Model.PrecioAnterior</del>
+                        }
+                    </div>
+                    @* <p>Justo, cum feugiat imperdiet nulla molestie ac vulputate scelerisque amet. Bibendum adipiscing platea blandit sit sed quam semper rhoncus. Diam ultrices maecenas consequat eu tortor orci, cras lectus mauris, cras egestas quam venenatis neque.</p> *@
+                    <div class="cart-wrap py-4">
+                        <div class="color-options pb-3">
+                            <div class="color-toggle" data-option-index="0">
+                                <h6 class="item-title text-uppercase text-dark">Color:</h6>
+
+                                @for (int i = 0; i < Model.Color.Count; i++)
+                                {
+                                    var color = Model.Color[i];
+                                    var id = $"color-option-{i}";
+
+                                    <input type="radio" class="btn-check" name="options-color" id="@id" autocomplete="off" @(i == 0 ? "checked" : "")>
+                                    <label class="btn" for="@id">@color</label>
+                                }
+                            </div>
+                        </div>
+                        @if (Model.Talla != null)
+                        {
+                            <div class="swatch" data-option-index="1">
+                                <h6 class="item-title text-uppercase text-dark">Talla:</h6>
+                                
+                                @for (int i = 0; i < Model.Talla.Count; i++)
+                                {
+                                    var talla = Model.Talla[i];
+                                    var id = "talla-" + talla;
+                                    var isChecked = i == 0 ? "checked" : "";
+
+                                    <input type="radio" class="btn-check" name="options-size" id="@id" autocomplete="off" @isChecked />
+                                    <label class="btn" for="@id">@talla</label>
+                                }
+
+                            </div>
+                        }
+
+                        <div class="product-quantity pt-3">
+                            @* <div class="stock-number text-dark"><em>1 en stock</em></div> *@
+                            <div class="stock-button-wrap">
+
+                                @* <div class="input-group product-qty" style="max-width: 150px;">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus btn btn-light btn-number" data-type="minus" data-field="">
+                                            <svg width="16" height="16"><use xlink:href="#minus"></use></svg>
+                                        </button>
+                                    </span>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus btn btn-light btn-number" data-type="plus" data-field="">
+                                            <svg width="16" height="16"><use xlink:href="#plus"></use></svg>
+                                        </button>
+                                    </span>
+                                </div> *@
+                                <div class="qty-button d-flex flex-wrap pt-3">
+                                    
+                                    <button type="button" id="whatsapp-button" class="btn btn-primary py-3 px-4 text-uppercase me-3 mt-3">Comprar ahora</button>
+
+                                    @* <button type="submit" name="add-to-cart" value="1269" class="btn btn-dark py-3 px-4 text-uppercase mt-3">Añadir al carrito</button> *@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @* <div class="meta-product py-2">
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title no-margin pe-2">SKU:</h6>
+                            <span>1223</span>
+                        </div>
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title no-margin pe-2">Category:</h6>
+                            <a href="#">Category 1</a>, <a href="#"> Category 1</a>
+                        </div>
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title no-margin pe-2">Tags:</h6>
+                            <a href="#">Tag 1</a>, <a href="#"> Tag 2</a>
+                        </div>
+                    </div> *@
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+@* <section id="related-products" class="section-padding products-carousel">
+    <div class="container-lg overflow-hidden py-5">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="section-header d-flex flex-wrap justify-content-between my-4">
+
+                    <h2 class="section-title text-capitalize">También te podria gustar</h2>
+
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="btn btn-primary me-2">Ver Todo</a> 
+                        <div class="swiper-buttons">
+                            <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
+                            <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="product-item swiper-slide mb-4">
+                            <figure>
+                                <a href="single-product.html" title="Product uno">
+                                    <img src="images/product-thumb-15.jpg" alt="Product Thumbnail" class="img-fluid">
+                                </a>
+                            </figure>
+                            <div class="d-flex flex-column text-center">
+                                <h3 class="fs-6 fw-normal">Product uno</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <del>$24.00</del>
+                                    <span class="text-dark fw-semibold">$18.00</span>
+                                    <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
+                                </div>
+                                <div class="button-area p-3 pt-0">
+                                    <div class="row g-1 mt-2">
+                                        <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
+                                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item swiper-slide mb-4">
+                            <figure>
+                                <a href="single-product.html" title="Product dos">
+                                    <img src="images/product-thumb-16.jpg" alt="Product Thumbnail" class="img-fluid">
+                                </a>
+                            </figure>
+                            <div class="d-flex flex-column text-center">
+                                <h3 class="fs-6 fw-normal">Product dos</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <del>$24.00</del>
+                                    <span class="text-dark fw-semibold">$18.00</span>
+                                    <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
+                                </div>
+                                <div class="button-area p-3 pt-0">
+                                    <div class="row g-1 mt-2">
+                                        <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
+                                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item swiper-slide mb-4">
+                            <figure>
+                                <a href="single-product.html" title="Product Title">
+                                    <img src="images/product-thumb-17.jpg" alt="Product Thumbnail" class="img-fluid">
+                                </a>
+                            </figure>
+                            <div class="d-flex flex-column text-center">
+                                <h3 class="fs-6 fw-normal">Product Item Name</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <del>$24.00</del>
+                                    <span class="text-dark fw-semibold">$18.00</span>
+                                    <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
+                                </div>
+                                <div class="button-area p-3 pt-0">
+                                    <div class="row g-1 mt-2">
+                                        <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
+                                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item swiper-slide mb-4">
+                            <figure>
+                                <a href="single-product.html" title="Product Title">
+                                    <img src="images/product-thumb-18.jpg" alt="Product Thumbnail" class="img-fluid">
+                                </a>
+                            </figure>
+                            <div class="d-flex flex-column text-center">
+                                <h3 class="fs-6 fw-normal">Product Item Name</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <del>$24.00</del>
+                                    <span class="text-dark fw-semibold">$18.00</span>
+                                    <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
+                                </div>
+                                <div class="button-area p-3 pt-0">
+                                    <div class="row g-1 mt-2">
+                                        <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
+                                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item swiper-slide mb-4">
+                            <figure>
+                                <a href="single-product.html" title="Product Title">
+                                    <img src="images/product-thumb-19.jpg" alt="Product Thumbnail" class="img-fluid">
+                                </a>
+                            </figure>
+                            <div class="d-flex flex-column text-center">
+                                <h3 class="fs-6 fw-normal">Product Item Name</h3>
+                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                    <del>$24.00</del>
+                                    <span class="text-dark fw-semibold">$18.00</span>
+                                    <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
+                                </div>
+                                <div class="button-area p-3 pt-0">
+                                    <div class="row g-1 mt-2">
+                                        <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
+                                        <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="18"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
+                                        <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- / products-carousel -->
+
+            </div>
+        </div>
+    </div>
+</section> *@
+
+@section Styles {
+    <style>
+        .product-thumbnail-slider {
+            height: 600px; /* Puedes ajustar este valor */
+        }
+
+        @@media (max-width: 991px) {
+            .product-thumbnail-slider {
+                height: auto;
+            }
+        }
+    </style>
+}
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const thumbnailSwiper = new Swiper('.product-thumbnail-slider', {
+                spaceBetween: 10,
+                slidesPerView: 5,
+                freeMode: true,
+                watchSlidesProgress: true,
+                direction: 'vertical',
+                breakpoints: {
+                    0: {
+                        direction: 'horizontal',
+                    },
+                    992: {
+                        direction: 'vertical',
+                    }
+                }
+            });
+
+            const largeSwiper = new Swiper('.product-large-slider', {
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                thumbs: {
+                    swiper: thumbnailSwiper
+                }
+            });
+        });
+
+
+
+
+        //Boton whatsapp
+       
+        document.addEventListener("DOMContentLoaded", function () {
+            const whatsappButton = document.getElementById("whatsapp-button");
+
+            whatsappButton?.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                const colorInput = document.querySelector('input[name="options-color"]:checked');
+                const tallaInput = document.querySelector('input[name="options-size"]:checked');
+
+                if (!colorInput || !tallaInput) {
+                    alert("Por favor selecciona un color y una talla antes de continuar.");
+                    return;
+                }
+
+                const color = colorInput.nextElementSibling?.textContent.trim() || "No especificado";
+                const talla = tallaInput.nextElementSibling?.textContent.trim() || "No especificado";
+
+                const nombreProducto = "@Model.Nombre";
+                const precio = "@Model.Precio";
+                const urlProducto = window.location.href;
+
+                const mensaje = `Hola, estoy interesada en el producto: ${nombreProducto}
+                    🔹 Precio: S/.${precio}
+                    🔹 Color: ${color}
+                    🔹 Talla: ${talla}
+                    🔗 Link: ${urlProducto}`;
+
+                const numeroWhatsApp = "51921871418"; // ← reemplaza con tu número
+                const whatsappURL = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+
+                window.open(whatsappURL, '_blank');
+            });
+        });
+   
+
+
+    </script>
+}
+
+
