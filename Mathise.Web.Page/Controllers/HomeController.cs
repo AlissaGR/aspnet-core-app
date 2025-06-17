@@ -18,12 +18,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B001",
-                Nombre = "SHEIN PrivÈ Camiseta con estampado floral de un hombro de manga farol",
+                Nombre = "SHEIN Priv√© Camiseta con estampado floral de un hombro de manga farol",
                 Categoria = "Blusas",
                 Precio = 28.00m,
                 PrecioAnterior = 35.00m,
                 Descuento = 20,
-                Descripcion = "SHEIN PrivÈ Camiseta con estampado floral de un hombro de manga farol",
+                Descripcion = "SHEIN Priv√© Camiseta con estampado floral de un hombro de manga farol",
                 Color = new List<string> { "Blanco" },
                 Talla = new List<string> { "S" },
                 Imagenes = new List<string>
@@ -56,7 +56,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B003",
-                Nombre = "SHEIN PrivÈ Camiseta con estampado geomÈtrico de hombros descubiertos",
+                Nombre = "SHEIN Priv√© Camiseta con estampado geom√©trico de hombros descubiertos",
                 Categoria = "Blusas",
                 Precio = 27.00m,
                 //PrecioAnterior = 60.00m,
@@ -74,7 +74,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B004",
-                Nombre = "SHEIN PrivÈ Camiseta con estampado geomÈtrico con abertura delantera",
+                Nombre = "SHEIN Priv√© Camiseta con estampado geom√©trico con abertura delantera",
                 Categoria = "Blusas",
                 Precio = 27.00m,
                 //PrecioAnterior = 60.00m,
@@ -165,7 +165,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B009",
-                Nombre = "SHEIN LUNE Camiseta gr·fica casual de verano de punto con estampado jacquard para mujeres",
+                Nombre = "SHEIN LUNE Camiseta gr√°fica casual de verano de punto con estampado jacquard para mujeres",
                 Categoria = "Blusas",
                 Precio = 17.00m,
                 PrecioAnterior = 33.00m,
@@ -361,7 +361,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0019",
-                Nombre = "SHEIN PrivÈ Camiseta con estampado de pata de gallo escote corazÛn de manga farol",
+                Nombre = "SHEIN Priv√© Camiseta con estampado de pata de gallo escote coraz√≥n de manga farol",
                 Categoria = "Blusas",
                 Precio = 27.00m,
                 //PrecioAnterior = 37.00m,
@@ -381,7 +381,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0020",
-                Nombre = "SHEIN PETITE 2 piezas Camiseta de mujer de primavera con cuello de pico sÛlido",
+                Nombre = "SHEIN PETITE 2 piezas Camiseta de mujer de primavera con cuello de pico s√≥lido",
                 Categoria = "Blusas",
                 Precio = 37.00m,
                 //PrecioAnterior = 37.00m,
@@ -421,7 +421,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0022",
-                Nombre = "SHEIN LUNE Camiseta b·sica de manga corta y escote redondo para mujer, ideal para festivales de m˙sica en verano",
+                Nombre = "SHEIN LUNE Camiseta b√°sica de manga corta y escote redondo para mujer, ideal para festivales de m√∫sica en verano",
                 Categoria = "Blusas",
                 Precio = 16.00m,
                 PrecioAnterior = 25.00m,
@@ -441,7 +441,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0023",
-                Nombre = "SHEIN Essnce Chaleco de punto asimÈtrico para mujer",
+                Nombre = "SHEIN Essnce Chaleco de punto asim√©trico para mujer",
                 Categoria = "Blusas",
                 Precio = 10.00m,
                 PrecioAnterior = 22.00m,
@@ -481,7 +481,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0025",
-                Nombre = "EMERY ROSE Ropa de otoÒo Camisetas b·sicas para mujeres Parte superior con estampado de leopardo",
+                Nombre = "EMERY ROSE Ropa de oto√±o Camisetas b√°sicas para mujeres Parte superior con estampado de leopardo",
                 Categoria = "Blusas",
                 Precio = 27.00m,
                 //PrecioAnterior = 37.00m,
@@ -501,7 +501,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0026",
-                Nombre = "Dazy Star Camiseta De Manga Corta SÛlida Para Ajuste Estrecho Con Cierre De Botones Frontales",
+                Nombre = "Dazy Star Camiseta De Manga Corta S√≥lida Para Ajuste Estrecho Con Cierre De Botones Frontales",
                 Categoria = "Blusas",
                 Precio = 20.00m,
                 //PrecioAnterior = 37.00m,
@@ -521,7 +521,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "B0027",
-                Nombre = "DAZY Camiseta de mujer de verano casual con unicolor, cuello asimÈtrico y plisada",
+                Nombre = "DAZY Camiseta de mujer de verano casual con unicolor, cuello asim√©trico y plisada",
                 Categoria = "Blusas",
                 Precio = 23.00m,
                 //PrecioAnterior = 37.00m,
@@ -563,7 +563,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "P002",
-                Nombre = "SHEIN MOOSTA Pantalon casual de mujer negro con ajuste ceÒido",
+                Nombre = "SHEIN MOOSTA Pantalon casual de mujer negro con ajuste ce√±ido",
                 Categoria = "Pantalones",
                 Precio = 68.00m,
                 //PrecioAnterior = 60.00m,
@@ -581,7 +581,7 @@ namespace Mathise.Web.Page.Controllers
              new Producto
             {
                 Id = "P003",
-                Nombre = "SHEIN Essnce Jeans Azul informales ajustados para mujer con bolsillos, vers·tiles",
+                Nombre = "SHEIN Essnce Jeans Azul informales ajustados para mujer con bolsillos, vers√°tiles",
                 Categoria = "Pantalones",
                 Precio = 70.00m,
                 //PrecioAnterior = 60.00m,
@@ -617,7 +617,7 @@ namespace Mathise.Web.Page.Controllers
                 new Producto
             {
                 Id = "P005",
-                Nombre = "SHEIN Essnce Pantalones vaqueros ajustados informales de denim el·stico con bolsillos",
+                Nombre = "SHEIN Essnce Pantalones vaqueros ajustados informales de denim el√°stico con bolsillos",
                 Categoria = "Pantalones",
                 Precio = 50.00m,
                 //PrecioAnterior = 60.00m,
@@ -653,7 +653,7 @@ namespace Mathise.Web.Page.Controllers
                     new Producto
             {
                 Id = "P007",
-                Nombre = "SHEIN EZwear PantalÛn de ch·ndal estilo retro con pierna de campana y cintura con lazo",
+                Nombre = "SHEIN EZwear Pantal√≥n de ch√°ndal estilo retro con pierna de campana y cintura con lazo",
                 Categoria = "Pantalones",
                 Precio = 35.00m,
                 //PrecioAnterior = 60.00m,
@@ -671,7 +671,7 @@ namespace Mathise.Web.Page.Controllers
               new Producto
             {
                 Id = "P008",
-                Nombre = "SHEIN SXY Jeans casuales vers·tiles de mujer con bolsillos y desgastados, tipo skinny",
+                Nombre = "SHEIN SXY Jeans casuales vers√°tiles de mujer con bolsillos y desgastados, tipo skinny",
                 Categoria = "Pantalones",
                 Precio = 55.00m,
                 //PrecioAnterior = 60.00m,
@@ -689,7 +689,7 @@ namespace Mathise.Web.Page.Controllers
              new Producto
             {
                 Id = "P009",
-                Nombre = "SHEIN SXY Jeans casuales de mezclilla vers·tiles y ajustados con bolsillos para mujer",
+                Nombre = "SHEIN SXY Jeans casuales de mezclilla vers√°tiles y ajustados con bolsillos para mujer",
                 Categoria = "Pantalones",
                 Precio = 57.00m,
                 //PrecioAnterior = 60.00m,
@@ -707,7 +707,7 @@ namespace Mathise.Web.Page.Controllers
              new Producto
             {
                 Id = "P010",
-                Nombre = "SHEIN Pantalones con paneles de tela de malla, leggings acampanados con control de abdomen y levantamiento de gl˙teos",
+                Nombre = "SHEIN Pantalones con paneles de tela de malla, leggings acampanados con control de abdomen y levantamiento de gl√∫teos",
                 Categoria = "Pantalones",
                 Precio = 30.00m,
                 //PrecioAnterior = 60.00m,
@@ -761,7 +761,7 @@ namespace Mathise.Web.Page.Controllers
                                 new Producto
             {
                 Id = "P013",
-                Nombre = "SHEIN Pantalones casuales ceÒidos de botones lisos para mujer",
+                Nombre = "SHEIN Pantalones casuales ce√±idos de botones lisos para mujer",
                 Categoria = "Pantalones",
                 Precio = 55.00m,
                 //PrecioAnterior = 60.00m,
@@ -860,7 +860,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "C005",
-                Nombre = "SHEIN SXY Cazadora crop con diseÒo de solapa",
+                Nombre = "SHEIN SXY Cazadora crop con dise√±o de solapa",
                 Categoria = "Casacas",
                 Precio = 60.00m,
                 //PrecioAnterior = 50.00m,
@@ -879,7 +879,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "C006",
-                Nombre = "SHEIN Aloruh Chaqueta vers·til de retazos de piel para otoÒo e invierno, a prueba de viento",
+                Nombre = "SHEIN Aloruh Chaqueta vers√°til de retazos de piel para oto√±o e invierno, a prueba de viento",
                 Categoria = "Casacas",
                 Precio = 75.00m,
                 //PrecioAnterior = 50.00m,
@@ -955,7 +955,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "C010",
-                Nombre = "SHEIN ROMWE C·rdigan de cuello alto con doble cremallera ajustado a rayas estilo vintage",
+                Nombre = "SHEIN ROMWE C√°rdigan de cuello alto con doble cremallera ajustado a rayas estilo vintage",
                 Categoria = "Casacas",
                 Precio = 37.00m,
                 //PrecioAnterior = 50.00m,
@@ -993,7 +993,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "C012",
-                Nombre = "SHEIN VARSITIE b·sico de yoga deportivo con top de manga larga",
+                Nombre = "SHEIN VARSITIE b√°sico de yoga deportivo con top de manga larga",
                 Categoria = "Casacas",
                 Precio = 27.00m,
                 //PrecioAnterior = 50.00m,
@@ -1031,7 +1031,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "C014",
-                Nombre = "SHEIN LUNE Abrigo trench casual para mujeres, otoÒo e invierno",
+                Nombre = "SHEIN LUNE Abrigo trench casual para mujeres, oto√±o e invierno",
                 Categoria = "Casacas",
                 Precio = 50.00m,
                 //PrecioAnterior = 50.00m,
@@ -1093,7 +1093,7 @@ namespace Mathise.Web.Page.Controllers
                 Precio = 60.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Talla = new List<string> { "S","M","L" },
                 Imagenes = new List<string>
                 {
@@ -1111,7 +1111,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO01",
-                Nombre = "SHEIN LUNE SuÈter holgado de cuello redondo, manga ragl·n y a rayas",
+                Nombre = "SHEIN LUNE Su√©ter holgado de cuello redondo, manga ragl√°n y a rayas",
                 Categoria = "Poleras",
                 Precio = 45.00m,
                 //PrecioAnterior = 50.00m,
@@ -1151,7 +1151,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO03",
-                Nombre = "SHEIN Sudadera con capucha oversize casual con mangas largas de hombro caÌdo y cordÛn",
+                Nombre = "SHEIN Sudadera con capucha oversize casual con mangas largas de hombro ca√≠do y cord√≥n",
                 Categoria = "Poleras",
                 Precio = 55.00m,
                 //PrecioAnterior = 50.00m,
@@ -1171,7 +1171,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO04",
-                Nombre = "SHEIN Sport Streetz Sudadera con capucha informal con cordÛn para mujer, efecto teÒido anudado",
+                Nombre = "SHEIN Sport Streetz Sudadera con capucha informal con cord√≥n para mujer, efecto te√±ido anudado",
                 Categoria = "Poleras",
                 Precio = 29.00m,
                 //PrecioAnterior = 50.00m,
@@ -1191,7 +1191,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO05",
-                Nombre = "SHEIN Slayr Sudadera informal de mujer con cuello asimÈtrico y estampado de ojo",
+                Nombre = "SHEIN Slayr Sudadera informal de mujer con cuello asim√©trico y estampado de ojo",
                 Categoria = "Poleras",
                 Precio = 27.00m,
                 //PrecioAnterior = 50.00m,
@@ -1211,7 +1211,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO06",
-                Nombre = "SHEIN Relaxiva SuÈter casual holgado de cuello redondo de manga larga con rayas y contraste",
+                Nombre = "SHEIN Relaxiva Su√©ter casual holgado de cuello redondo de manga larga con rayas y contraste",
                 Categoria = "Poleras",
                 Precio = 44.00m,
                 //PrecioAnterior = 50.00m,
@@ -1231,7 +1231,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO07",
-                Nombre = "SHEIN Sudadera con cuello en V, mangas de murciÈlago gris",
+                Nombre = "SHEIN Sudadera con cuello en V, mangas de murci√©lago gris",
                 Categoria = "Poleras",
                 Precio = 33.00m,
                 //PrecioAnterior = 50.00m,
@@ -1271,7 +1271,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PO09",
-                Nombre = "SHEIN EZwear Jersey con capucha de mujer de color azul profundo con bajo asimÈtrico y calado",
+                Nombre = "SHEIN EZwear Jersey con capucha de mujer de color azul profundo con bajo asim√©trico y calado",
                 Categoria = "Poleras",
                 Precio = 34.00m,
                 //PrecioAnterior = 50.00m,
@@ -1313,7 +1313,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "CA01",
-                Nombre = "SHEIN LUNE C·rdigan sencillo de unicolor con mangas de murciÈlago, uso casual de todos los dÌas",
+                Nombre = "SHEIN LUNE C√°rdigan sencillo de unicolor con mangas de murci√©lago, uso casual de todos los d√≠as",
                 Categoria = "Cardigans",
                 Precio = 35.00m,
                 //PrecioAnterior = 50.00m,
@@ -1333,7 +1333,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "CA02",
-                Nombre = "SHEIN Chaqueta larga, holgada y casual de terciopelo con estampado de leopardo met·lico elegante",
+                Nombre = "SHEIN Chaqueta larga, holgada y casual de terciopelo con estampado de leopardo met√°lico elegante",
                 Categoria = "Cardigans",
                 Precio = 35.00m,
                 //PrecioAnterior = 50.00m,
@@ -1355,7 +1355,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "BL01",
-                Nombre = "SHEIN PrivÈ Blazer ribete lanudo crop tweed",
+                Nombre = "SHEIN Priv√© Blazer ribete lanudo crop tweed",
                 Categoria = "Blazer",
                 Precio = 65.00m,
                 //PrecioAnterior = 50.00m,
@@ -1395,7 +1395,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "BL03",
-                Nombre = "SHEIN RaffinÈa Chaqueta de blazer de doble botonadura sobrecampana de color contrastante",
+                Nombre = "SHEIN Raffin√©a Chaqueta de blazer de doble botonadura sobrecampana de color contrastante",
                 Categoria = "Blazer",
                 Precio = 50.00m,
                 //PrecioAnterior = 50.00m,
@@ -1415,7 +1415,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "BL04",
-                Nombre = "SHEIN RaffinÈa Chaqueta blazer de ajuste regular de un solo pecho con bolsillos con solapa",
+                Nombre = "SHEIN Raffin√©a Chaqueta blazer de ajuste regular de un solo pecho con bolsillos con solapa",
                 Categoria = "Blazer",
                 Precio = 45.00m,
                 //PrecioAnterior = 50.00m,
@@ -1477,7 +1477,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "A001",
-                Nombre = "SHEIN LUNE Abrigo regular grueso y c·lido de cuello redondo gris para mujer, invierno",
+                Nombre = "SHEIN LUNE Abrigo regular grueso y c√°lido de cuello redondo gris para mujer, invierno",
                 Categoria = "Abrigos",
                 Precio = 64.00m,
                 //PrecioAnterior = 50.00m,
@@ -1497,12 +1497,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "A002",
-                Nombre = "SHEIN SXY Abrigo de poncho de mujer marrÛn y mullido, abrigo de peluche",
+                Nombre = "SHEIN SXY Abrigo de poncho de mujer marr√≥n y mullido, abrigo de peluche",
                 Categoria = "Abrigos",
                 Precio = 77.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Talla = new List<string> { "L" },
                 Imagenes = new List<string>
                 {
@@ -1517,12 +1517,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "A003",
-                Nombre = "SHEIN LUNE Chaqueta casual de forro polar a cuadros, otoÒo e invierno",
+                Nombre = "SHEIN LUNE Chaqueta casual de forro polar a cuadros, oto√±o e invierno",
                 Categoria = "Abrigos",
                 Precio = 59.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MelÛn" },
+                Color = new List<string> { "Mel√≥n" },
                 Talla = new List<string> { "S","M","L" },
                 Imagenes = new List<string>
                 {
@@ -1578,7 +1578,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V003",
-                Nombre = "SHEIN Vestido camisa casual de mujer de manga corta con botones y estampado de veta de madera con cinturÛn anudado",
+                Nombre = "SHEIN Vestido camisa casual de mujer de manga corta con botones y estampado de veta de madera con cintur√≥n anudado",
                 Categoria = "Vestidos",
                 Precio = 56.00m,
                 //PrecioAnterior = 50.00m,
@@ -1597,7 +1597,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V004",
-                Nombre = "SHEIN PrivÈ Vestido ajustado con transparencias y abertura",
+                Nombre = "SHEIN Priv√© Vestido ajustado con transparencias y abertura",
                 Categoria = "Vestidos",
                 Precio = 37.00m,
                 //PrecioAnterior = 50.00m,
@@ -1616,7 +1616,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V005",
-                Nombre = "SHEIN Vestido casual recto de manga farol con cuello redondo, estampado geomÈtrico suelto",
+                Nombre = "SHEIN Vestido casual recto de manga farol con cuello redondo, estampado geom√©trico suelto",
                 Categoria = "Vestidos",
                 Precio = 38.00m,
                 //PrecioAnterior = 50.00m,
@@ -1635,7 +1635,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V006",
-                Nombre = "SHEIN Clasi Vestido casual de mujer con manga enrollable, cinturÛn",
+                Nombre = "SHEIN Clasi Vestido casual de mujer con manga enrollable, cintur√≥n",
                 Categoria = "Vestidos",
                 Precio = 47.00m,
                 //PrecioAnterior = 50.00m,
@@ -1654,7 +1654,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V007",
-                Nombre = "SHEIN SXY Vestido de mujer con cuello asimÈtrico, de silueta delgada, cuello asimÈtrico, malla con abertura, fruncido y abertura",
+                Nombre = "SHEIN SXY Vestido de mujer con cuello asim√©trico, de silueta delgada, cuello asim√©trico, malla con abertura, fruncido y abertura",
                 Categoria = "Vestidos",
                 Precio = 35.00m,
                 //PrecioAnterior = 50.00m,
@@ -1730,7 +1730,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V011",
-                Nombre = "SHEIN Clasi Vestido Sin Mangas De Mujer Con ImpresiÛn De Mariposa Y Bloques De Color",
+                Nombre = "SHEIN Clasi Vestido Sin Mangas De Mujer Con Impresi√≥n De Mariposa Y Bloques De Color",
                 Categoria = "Vestidos",
                 Precio = 38.00m,
                 //PrecioAnterior = 50.00m,
@@ -1749,7 +1749,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V012",
-                Nombre = "SHEIN Belle Vestido envolvente con cuello de surplice y mangas farol en color rojo borgoÒa",
+                Nombre = "SHEIN Belle Vestido envolvente con cuello de surplice y mangas farol en color rojo borgo√±a",
                 Categoria = "Vestidos",
                 Precio = 60.00m,
                 //PrecioAnterior = 50.00m,
@@ -1768,7 +1768,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "V013",
-                Nombre = "SHEIN BAE Vestido sexy de manga larga, cuello rectangular, forro de otoÒo, falda de cola de sirena, ajustado al cuerpo",
+                Nombre = "SHEIN BAE Vestido sexy de manga larga, cuello rectangular, forro de oto√±o, falda de cola de sirena, ajustado al cuerpo",
                 Categoria = "Vestidos",
                 Precio = 49.00m,
                 //PrecioAnterior = 50.00m,
@@ -1830,7 +1830,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "E002",
-                Nombre = "SHEIN Conjunto de top de tirantes y mallas para deportes, verano y yoga con medias altas hasta el muslo b·sicas",
+                Nombre = "SHEIN Conjunto de top de tirantes y mallas para deportes, verano y yoga con medias altas hasta el muslo b√°sicas",
                 Categoria = "Conjuntos",
                 Precio = 45.00m,
                 //PrecioAnterior = 50.00m,
@@ -1909,7 +1909,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PI001",
-                Nombre = "SHEIN Elegante camisÛn con tirantes finos y abertura lateral",
+                Nombre = "SHEIN Elegante camis√≥n con tirantes finos y abertura lateral",
                 Categoria = "Pijamas",
                 Precio = 27.00m,
                 //PrecioAnterior = 50.00m,
@@ -1947,7 +1947,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PI003",
-                Nombre = "SHEIN CamisÛn de terciopelo con estampado de mariposas",
+                Nombre = "SHEIN Camis√≥n de terciopelo con estampado de mariposas",
                 Categoria = "Pijamas",
                 Precio = 25.00m,
                 //PrecioAnterior = 50.00m,
@@ -1966,7 +1966,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "PI004",
-                Nombre = "SHEIN Bata con cuello vuelto acolchada con patrÛn bordado para mujeres para otoÒo e invierno",
+                Nombre = "SHEIN Bata con cuello vuelto acolchada con patr√≥n bordado para mujeres para oto√±o e invierno",
                 Categoria = "Pijamas",
                 Precio = 50.00m,
                 //PrecioAnterior = 50.00m,
@@ -2027,7 +2027,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z003",
-                Nombre = "Elegante bolso cruzado pequeÒo cuadrado. Al hombro retro con correa ancha y detalle audaz de cadena",
+                Nombre = "Elegante bolso cruzado peque√±o cuadrado. Al hombro retro con correa ancha y detalle audaz de cadena",
                 Categoria = "Bolsos",
                 Precio = 29.00m,
                 //PrecioAnterior = 50.00m,
@@ -2046,7 +2046,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z004",
-                Nombre = "Bolso Tipo Cubo de Gran Capacidad al Estilo Chino con Detalle de CordÛn Ajustable",
+                Nombre = "Bolso Tipo Cubo de Gran Capacidad al Estilo Chino con Detalle de Cord√≥n Ajustable",
                 Categoria = "Bolsos",
                 Precio = 25.00m,
                 //PrecioAnterior = 50.00m,
@@ -2065,12 +2065,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z005",
-                Nombre = "Bolsa de hombro vers·til con diseÒo acolchado, bolsa de moda para llevar bajo el brazo",
+                Nombre = "Bolsa de hombro vers√°til con dise√±o acolchado, bolsa de moda para llevar bajo el brazo",
                 Categoria = "Bolsos",
                 Precio = 19.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Imagenes = new List<string>
                 {
                     "~/images/Bolsos/Z005.png",
@@ -2084,7 +2084,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z006",
-                Nombre = "Bolso de hombro con solapa, minimalista, cl·sico, pequeÒo y extravagante, bolso casual y elegante",
+                Nombre = "Bolso de hombro con solapa, minimalista, cl√°sico, peque√±o y extravagante, bolso casual y elegante",
                 Categoria = "Bolsos",
                 Precio = 73.00m,
                 //PrecioAnterior = 50.00m,
@@ -2103,7 +2103,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z007",
-                Nombre = "Mochila de moda, bolsa de viaje casual grande y multifuncional de gran capacidad, bolsillo port·til",
+                Nombre = "Mochila de moda, bolsa de viaje casual grande y multifuncional de gran capacidad, bolsillo port√°til",
                 Categoria = "Bolsos",
                 Precio = 60.00m,
                 //PrecioAnterior = 50.00m,
@@ -2122,7 +2122,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z008",
-                Nombre = "Bolso baguette ligero, informal de negocios con hebilla y decoraciÛn de cadena",
+                Nombre = "Bolso baguette ligero, informal de negocios con hebilla y decoraci√≥n de cadena",
                 Categoria = "Bolsos",
                 Precio = 37.00m,
                 //PrecioAnterior = 50.00m,
@@ -2141,7 +2141,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z009",
-                Nombre = "Bolso de mano, con encaje, flores y diseÒo tejido, bolso de hombro casual, nuevos llegados para 2025",
+                Nombre = "Bolso de mano, con encaje, flores y dise√±o tejido, bolso de hombro casual, nuevos llegados para 2025",
                 Categoria = "Bolsos",
                 Precio = 35.00m,
                 //PrecioAnterior = 50.00m,
@@ -2160,12 +2160,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z010",
-                Nombre = "Mochila De Pu Ligera, m˙ltiples Compartimentos, Interior Forrado, Con Colgante De AcrÌlico De Color Dorado",
+                Nombre = "Mochila De Pu Ligera, m√∫ltiples Compartimentos, Interior Forrado, Con Colgante De Acr√≠lico De Color Dorado",
                 Categoria = "Bolsos",
                 Precio = 40.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Imagenes = new List<string>
                 {
                     "~/images/Bolsos/Z010.png",
@@ -2179,7 +2179,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z011",
-                Nombre = "Bolso de hombro tipo cruzado cuadrado con solapa y diseÒo de moÒo en costura de piel de poliuretano",
+                Nombre = "Bolso de hombro tipo cruzado cuadrado con solapa y dise√±o de mo√±o en costura de piel de poliuretano",
                 Categoria = "Bolsos",
                 Precio = 37.00m,
                 //PrecioAnterior = 50.00m,
@@ -2198,7 +2198,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z012",
-                Nombre = "Bolso de hombro de moda mini con patrÛn geomÈtrico",
+                Nombre = "Bolso de hombro de moda mini con patr√≥n geom√©trico",
                 Categoria = "Bolsos",
                 Precio = 25.00m,
                 //PrecioAnterior = 50.00m,
@@ -2217,12 +2217,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z013",
-                Nombre = "Mochila De Estilo Cl·sico, Ligero, Port·til, Con Cremallera, Fabricado En Piel Suave Mate Pu",
+                Nombre = "Mochila De Estilo Cl√°sico, Ligero, Port√°til, Con Cremallera, Fabricado En Piel Suave Mate Pu",
                 Categoria = "Bolsos",
                 Precio = 40.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Imagenes = new List<string>
                 {
                     "~/images/Bolsos/Z013.png",
@@ -2255,7 +2255,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z015",
-                Nombre = "Bolso de PU acolchado con solapa, bolso con cadena met·lica cuadrada de gran capacidad",
+                Nombre = "Bolso de PU acolchado con solapa, bolso con cadena met√°lica cuadrada de gran capacidad",
                 Categoria = "Bolsos",
                 Precio = 39.00m,
                 //PrecioAnterior = 50.00m,
@@ -2274,12 +2274,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "Z016",
-                Nombre = "Bolso de hombro color marrÛn, bolso cruzado de moda, pequeÒo bolso cuadrado elegante y ligero",
+                Nombre = "Bolso de hombro color marr√≥n, bolso cruzado de moda, peque√±o bolso cuadrado elegante y ligero",
                 Categoria = "Bolsos",
                 Precio = 30.00m,
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
-                Color = new List<string> { "MarrÛn" },
+                Color = new List<string> { "Marr√≥n" },
                 Imagenes = new List<string>
                 {
                     "~/images/Bolsos/Z016.png",
@@ -2291,12 +2291,12 @@ namespace Mathise.Web.Page.Controllers
             },
 
 
-            // BebÈs...
+            // Beb√©s...
 
             new Producto
             {
                 Id = "BB01",
-                Nombre = "SHEIN Chaqueta con capucha y cremallera, ropa de otoÒo/invierno",
+                Nombre = "SHEIN Chaqueta con capucha y cremallera, ropa de oto√±o/invierno",
                 Categoria = "Bebes",
                 Precio = 40.00m,
                 PrecioAnterior = 50.00m,
@@ -2319,12 +2319,12 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "L001",
-                Nombre = "SHEIN Swim Conjunto de bikini con estampado de m·rmol, sujetador halter y la Bottom del bikini",
+                Nombre = "SHEIN Swim Conjunto de bikini con estampado de m√°rmol, sujetador halter y la Bottom del bikini",
                 Categoria = "Liquidacion",
                 Precio = 27.00m,
                 PrecioAnterior = 55.00m,
                 Descuento = 50,
-                Color = new List<string> { "M·rmol" },
+                Color = new List<string> { "M√°rmol" },
                 Talla = new List<string> { "L" },
                 Imagenes = new List<string>
                 {
@@ -2339,7 +2339,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "L002",
-                Nombre = "SHEIN Traje de baÒo tankini de malla de contraste",
+                Nombre = "SHEIN Traje de ba√±o tankini de malla de contraste",
                 Categoria = "Liquidacion",
                 Precio = 27.00m,
                 PrecioAnterior = 55.00m,
@@ -2359,7 +2359,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "L003",
-                Nombre = "SHEIN Falda con estampado total y cordones, de lÌnea A para mujer, uso diario casual",
+                Nombre = "SHEIN Falda con estampado total y cordones, de l√≠nea A para mujer, uso diario casual",
                 Categoria = "Liquidacion",
                 Precio = 15.00m,
                 PrecioAnterior = 30.00m,
@@ -2379,7 +2379,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "L004",
-                Nombre = "SHEIN ROMWE Hippie Shorts Vaqueros Bordados Con DiseÒo De Sol, Luna Y Estrellas M·gicas",
+                Nombre = "SHEIN ROMWE Hippie Shorts Vaqueros Bordados Con Dise√±o De Sol, Luna Y Estrellas M√°gicas",
                 Categoria = "Liquidacion",
                 Precio = 30.00m,
                 PrecioAnterior = 60.00m,
@@ -2503,7 +2503,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEC001",
-                Nombre = "SHEIN Sport Studio Camiseta deportiva de manga larga con estampado geomÈtrico y bajo curvo",
+                Nombre = "SHEIN Sport Studio Camiseta deportiva de manga larga con estampado geom√©trico y bajo curvo",
                 Categoria = "Camisetas",
                 Precio = 27.00m,
                 //PrecioAnterior = 55.00m,
@@ -2563,7 +2563,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEC004",
-                Nombre = "SHEIN Sport Gameset Camiseta deportiva de ombrÈ de manga ragl·n bajo curvo",
+                Nombre = "SHEIN Sport Gameset Camiseta deportiva de ombr√© de manga ragl√°n bajo curvo",
                 Categoria = "Camisetas",
                 Precio = 26.00m,
                 //PrecioAnterior = 55.00m,
@@ -2603,7 +2603,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEC006",
-                Nombre = "SHEIN Sport Studio Camiseta Deportiva De Manga Ragl·n Con Inserciones De Malla",
+                Nombre = "SHEIN Sport Studio Camiseta Deportiva De Manga Ragl√°n Con Inserciones De Malla",
                 Categoria = "Camisetas",
                 Precio = 20.00m,
                 //PrecioAnterior = 55.00m,
@@ -2663,7 +2663,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEC009",
-                Nombre = "SHEIN Sport Gameset Camiseta deportiva unicolor de manga ragl·n",
+                Nombre = "SHEIN Sport Gameset Camiseta deportiva unicolor de manga ragl√°n",
                 Categoria = "Camisetas",
                 Precio = 20.00m,
                 //PrecioAnterior = 55.00m,
@@ -2725,7 +2725,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES001",
-                Nombre = "SHEIN Cheerettes Shorts biker de cintura ancha con bolsillo de mÛvil lateral",
+                Nombre = "SHEIN Cheerettes Shorts biker de cintura ancha con bolsillo de m√≥vil lateral",
                 Categoria = "Shorts Deportivos",
                 Precio = 25.00m,
                 //PrecioAnterior = 55.00m,
@@ -2745,7 +2745,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES002",
-                Nombre = "SHEIN Short deportivo con estampado floral y bolsillos, tipo pantalÛn corto de ciclista",
+                Nombre = "SHEIN Short deportivo con estampado floral y bolsillos, tipo pantal√≥n corto de ciclista",
                 Categoria = "Shorts Deportivos",
                 Precio = 25.00m,
                 //PrecioAnterior = 55.00m,
@@ -2765,7 +2765,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES003",
-                Nombre = "SHEIN Pantalones cortos deportivos de cintura alta con estampado floral, cinturÛn y bolsillos",
+                Nombre = "SHEIN Pantalones cortos deportivos de cintura alta con estampado floral, cintur√≥n y bolsillos",
                 Categoria = "Shorts Deportivos",
                 Precio = 25.00m,
                 //PrecioAnterior = 55.00m,
@@ -2785,7 +2785,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES004",
-                Nombre = "SHEIN Sport Studio Shorts biker de cintura ancha con bolsillo de mÛvil lateral",
+                Nombre = "SHEIN Sport Studio Shorts biker de cintura ancha con bolsillo de m√≥vil lateral",
                 Categoria = "Shorts Deportivos",
                 Precio = 24.00m,
                 //PrecioAnterior = 55.00m,
@@ -2805,7 +2805,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES005",
-                Nombre = "SHEIN Sport Studio Shorts Deportivos De Cintura El·stica",
+                Nombre = "SHEIN Sport Studio Shorts Deportivos De Cintura El√°stica",
                 Categoria = "Shorts Deportivos",
                 Precio = 25.00m,
                 //PrecioAnterior = 55.00m,
@@ -2825,7 +2825,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES006",
-                Nombre = "SHEIN Short deportivo con cintura ancha y diseÒo de letras con bolsillo para telÈfono",
+                Nombre = "SHEIN Short deportivo con cintura ancha y dise√±o de letras con bolsillo para tel√©fono",
                 Categoria = "Shorts Deportivos",
                 Precio = 23.00m,
                 //PrecioAnterior = 55.00m,
@@ -2865,7 +2865,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES008",
-                Nombre = "SHEIN Short deportivo el·stico con cintura ancha y dobladillo estilo delfÌn bolsillo interno",
+                Nombre = "SHEIN Short deportivo el√°stico con cintura ancha y dobladillo estilo delf√≠n bolsillo interno",
                 Categoria = "Shorts Deportivos",
                 Precio = 25.00m,
                 //PrecioAnterior = 55.00m,
@@ -2885,7 +2885,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES009",
-                Nombre = "SHEIN Pantalones cortos de entrenamiento deportivo con bolsillo para telÈfono y gr·ficos de letras en el lateral",
+                Nombre = "SHEIN Pantalones cortos de entrenamiento deportivo con bolsillo para tel√©fono y gr√°ficos de letras en el lateral",
                 Categoria = "Shorts Deportivos",
                 Precio = 23.00m,
                 //PrecioAnterior = 55.00m,
@@ -2905,7 +2905,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES010",
-                Nombre = "SHEIN Sport Studio Shorts biker de cintura ancha con bolsillo de mÛvil lateral",
+                Nombre = "SHEIN Sport Studio Shorts biker de cintura ancha con bolsillo de m√≥vil lateral",
                 Categoria = "Shorts Deportivos",
                 Precio = 24.00m,
                 //PrecioAnterior = 55.00m,
@@ -2925,7 +2925,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES011",
-                Nombre = "SHEIN Sport Studio Shorts deportivos con cintura el·stica de unicolor y bolsillo para telÈfono (tallas grandes)",
+                Nombre = "SHEIN Sport Studio Shorts deportivos con cintura el√°stica de unicolor y bolsillo para tel√©fono (tallas grandes)",
                 Categoria = "Shorts Deportivos",
                 Precio = 26.00m,
                 //PrecioAnterior = 55.00m,
@@ -2945,7 +2945,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES012",
-                Nombre = "SHEIN Sport Studio Shorts ajustados de banda ancha con gr·fico de letras para ciclista, shorts el·sticos",
+                Nombre = "SHEIN Sport Studio Shorts ajustados de banda ancha con gr√°fico de letras para ciclista, shorts el√°sticos",
                 Categoria = "Shorts Deportivos",
                 Precio = 17.00m,
                 //PrecioAnterior = 55.00m,
@@ -2965,7 +2965,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DES013",
-                Nombre = "SHEIN Pantalones cortos deportivos sin costuras de cintura ancha sÛlida, pantalones cortos de gimnasia",
+                Nombre = "SHEIN Pantalones cortos deportivos sin costuras de cintura ancha s√≥lida, pantalones cortos de gimnasia",
                 Categoria = "Shorts Deportivos",
                 Precio = 19.00m,
                 //PrecioAnterior = 55.00m,
@@ -3028,7 +3028,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL003",
-                Nombre = "SHEIN Sport Studio Leggings deportivos de cintura ancha con bolsillo de mÛvil lateral",
+                Nombre = "SHEIN Sport Studio Leggings deportivos de cintura ancha con bolsillo de m√≥vil lateral",
                 Categoria = "Leggins",
                 Precio = 30.00m,
                 //PrecioAnterior = 55.00m,
@@ -3108,7 +3108,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL007",
-                Nombre = "SHEIN Mallas deportivas de cintura ancha con inserciÛn de malla con bolsillo para telÈfono",
+                Nombre = "SHEIN Mallas deportivas de cintura ancha con inserci√≥n de malla con bolsillo para tel√©fono",
                 Categoria = "Leggins",
                 Precio = 29.00m,
                 //PrecioAnterior = 55.00m,
@@ -3248,7 +3248,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL014",
-                Nombre = "SHEIN Mallas de compresiÛn con inserto de malla de control de barriga sin costuras con bolsillo lateral para telÈfono",
+                Nombre = "SHEIN Mallas de compresi√≥n con inserto de malla de control de barriga sin costuras con bolsillo lateral para tel√©fono",
                 Categoria = "Leggins",
                 Precio = 37.00m,
                 //PrecioAnterior = 55.00m,
@@ -3268,7 +3268,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL015",
-                Nombre = "SHEIN Cheerettes Mallas Deportivas De Color SÛlido Con Bolsillo Para TelÈfono",
+                Nombre = "SHEIN Cheerettes Mallas Deportivas De Color S√≥lido Con Bolsillo Para Tel√©fono",
                 Categoria = "Leggins",
                 Precio = 30.00m,
                 //PrecioAnterior = 55.00m,
@@ -3328,7 +3328,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL018",
-                Nombre = "SHEIN Pantalones con paneles de malla, leggings acampanados con control de abdomen y levantamiento de gl˙teos",
+                Nombre = "SHEIN Pantalones con paneles de malla, leggings acampanados con control de abdomen y levantamiento de gl√∫teos",
                 Categoria = "Leggins",
                 Precio = 30.00m,
                 //PrecioAnterior = 55.00m,
@@ -3368,7 +3368,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL020",
-                Nombre = "SHEIN Sport Activina Pantalones Deportivos De Cintura Ancha De Color SÛlido Para Mujeres",
+                Nombre = "SHEIN Sport Activina Pantalones Deportivos De Cintura Ancha De Color S√≥lido Para Mujeres",
                 Categoria = "Leggins",
                 Precio = 36.00m,
                 //PrecioAnterior = 55.00m,
@@ -3388,7 +3388,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEL021",
-                Nombre = "SHEIN Powerista Pantalones De Jogging De Color SÛlido Para Mujer Con Bolsillos",
+                Nombre = "SHEIN Powerista Pantalones De Jogging De Color S√≥lido Para Mujer Con Bolsillos",
                 Categoria = "Leggins",
                 Precio = 37.00m,
                 //PrecioAnterior = 55.00m,
@@ -3430,7 +3430,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DECO02",
-                Nombre = "SHEIN Sport Studio Rompers Deportivos De Manga Larga De Color SÛlido Con Cuello Cuadrado",
+                Nombre = "SHEIN Sport Studio Rompers Deportivos De Manga Larga De Color S√≥lido Con Cuello Cuadrado",
                 Categoria = "Conjuntos y Enterizos",
                 Precio = 42.00m,
                 //PrecioAnterior = 55.00m,
@@ -3513,7 +3513,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEF002",
-                Nombre = "SHEIN Sport Gameset Falda pantalÛn deportiva con estampado gr·fico y bolsillo para telÈfono",
+                Nombre = "SHEIN Sport Gameset Falda pantal√≥n deportiva con estampado gr√°fico y bolsillo para tel√©fono",
                 Categoria = "FaldaShort",
                 Precio = 34.00m,
                 //PrecioAnterior = 55.00m,
@@ -3556,7 +3556,7 @@ namespace Mathise.Web.Page.Controllers
             new Producto
             {
                 Id = "DEP002",
-                Nombre = "SHEIN VARSITIE b·sico de yoga de verano deportivo con top de manga larga",
+                Nombre = "SHEIN VARSITIE b√°sico de yoga de verano deportivo con top de manga larga",
                 Categoria = "Casacas y Poleras",
                 Precio = 27.00m,
                 //PrecioAnterior = 55.00m,
@@ -3594,7 +3594,7 @@ namespace Mathise.Web.Page.Controllers
             },
 
 
-            // Puedes seguir agregando m·s productos...
+            // Puedes seguir agregando m√°s productos...
         };
         }
 
@@ -3616,7 +3616,7 @@ namespace Mathise.Web.Page.Controllers
 
         public IActionResult Productos(string categoria = "", int pagina = 1)
         {
-            int tamaÒoPagina = 12;
+            int tama√±oPagina = 12;
 
             var productosFiltrados = string.IsNullOrEmpty(categoria)
                 ? _productos
@@ -3625,15 +3625,15 @@ namespace Mathise.Web.Page.Controllers
             int totalProductos = productosFiltrados.Count;
 
             var productosPagina = productosFiltrados
-                .Skip((pagina - 1) * tamaÒoPagina)
-                .Take(tamaÒoPagina)
+                .Skip((pagina - 1) * tama√±oPagina)
+                .Take(tama√±oPagina)
                 .ToList();
 
             var modelo = new PaginacionViewModel<Producto>
             {
                 Items = productosPagina,
                 PaginaActual = pagina,
-                TotalPaginas = (int)Math.Ceiling((double)totalProductos / tamaÒoPagina)
+                TotalPaginas = (int)Math.Ceiling((double)totalProductos / tama√±oPagina)
             };
 
             ViewBag.Categoria = categoria;
