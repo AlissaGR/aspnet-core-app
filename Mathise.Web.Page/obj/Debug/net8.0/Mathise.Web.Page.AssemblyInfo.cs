@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mathise.Web.Page")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5790d3b0266e41e3bf8868db622d56832033c3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mathise.Web.Page")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mathise.Web.Page")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
