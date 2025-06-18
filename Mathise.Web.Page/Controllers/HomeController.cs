@@ -3616,7 +3616,7 @@ namespace Mathise.Web.Page.Controllers
 
         public IActionResult Productos(string categoria = "", int pagina = 1)
         {
-            int tamañoPagina = 12;
+            int tamanoPagina = 12;
 
             var productosFiltrados = string.IsNullOrEmpty(categoria)
                 ? _productos
@@ -3625,15 +3625,15 @@ namespace Mathise.Web.Page.Controllers
             int totalProductos = productosFiltrados.Count;
 
             var productosPagina = productosFiltrados
-                .Skip((pagina - 1) * tamañoPagina)
-                .Take(tamañoPagina)
+                .Skip((pagina - 1) * tamanoPagina)
+                .Take(tamanoPagina)
                 .ToList();
 
             var modelo = new PaginacionViewModel<Producto>
             {
                 Items = productosPagina,
                 PaginaActual = pagina,
-                TotalPaginas = (int)Math.Ceiling((double)totalProductos / tamañoPagina)
+                TotalPaginas = (int)Math.Ceiling((double)totalProductos / tamanoPagina)
             };
 
             ViewBag.Categoria = categoria;
