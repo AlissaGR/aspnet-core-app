@@ -2214,24 +2214,7 @@ namespace Mathise.Web.Page.Controllers
                 }
             },
 
-            new Producto
-            {
-                Id = "Z013",
-                Nombre = "Mochila De Estilo Clásico, Ligero, Portátil, Con Cremallera, Fabricado En Piel Suave Mate Pu",
-                Categoria = "Bolsos",
-                Precio = 40.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
-                Color = new List<string> { "Marrón" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Bolsos/Z013.png",
-                    "~/images/Bolsos/Z013-1.png",
-                    "~/images/Bolsos/Z013-2.png",
-                    "~/images/Bolsos/Z013-3.png",
-                    "~/images/Bolsos/Z013-4.png"
-                }
-            },
+           
 
             new Producto
             {
