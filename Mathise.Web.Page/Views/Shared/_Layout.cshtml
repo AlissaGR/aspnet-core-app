@@ -10,7 +10,8 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>@ViewData["Title"] - Mathise Shop</title>
+    <title>Mathise Shop</title>
+    <link rel="icon" href="~/images/logomathise.svg" type="image/x-icon" />
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> 
@@ -41,6 +42,12 @@
             .navbar .nav-link:focus {
                 color: #333 !important; /* un negro más oscuro o un gris al pasar el mouse */
             }
+
+        #loader p {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            padding: 0 1rem;
+        }
         @@media (max-width: 991.98px) {
             #mainNavbar
 
@@ -63,6 +70,27 @@
         }
 
         }
+        @@media (max-width: 600px) {
+            #loader
+
+        {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+
+        #loader p {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 0 1.5rem;
+            font-size: 1rem;
+        }
+
+        #loader img {
+            max-width: 150px;
+        }
+
+        }
+
     </style>
 </head>
 <body>
@@ -229,8 +257,31 @@
         </nav>
     </header>
 
+    <!-- Loader -->
+    <div id="loader" style="
+  position: fixed;
+  top:0; left:0; width:100vw; height:100vh;
+  flex-direction: column; background: white; display:flex;
+  justify-content:center; align-items:center; z-index: 9999;
+  gap: 40px;
+  padding-left: 0;
+  padding-right: 0;
+">
+        <img src="@Url.Content("~/images/logomathise.svg")" alt="logo"
+             class="img-fluid" style="max-width: 200px; height: auto;">
+        <div class="spinner-border text-primary" role="status" style="width: 4rem; height: 4rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p style="max-width: 600px; font-size: 1.2rem; color: #333; line-height: 1.5; text-align:center; margin: 0;">
+            Estamos afinando los últimos detalles para que tu visita sea increíble. En menos de 30 segundos, nuestra tienda estará lista para que descubras las mejores ofertas y productos exclusivos. ¡Gracias por esperar con nosotros!
+        </p>
+    </div>
 
-    @RenderBody()
+
+
+    <div id="page-content" style="display:none;">
+        @RenderBody()
+    </div>
 
     <footer class="bg-dark text-light">
         <div class="container-lg">
@@ -368,7 +419,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>
     <script src="js/script.js"></script>
-
+    <script>
+        window.addEventListener('load', function () {
+          // Oculta el loader
+          document.getElementById('loader').style.display = 'none';
+          // Muestra el contenido
+          document.getElementById('page-content').style.display = 'block';
+        });
+    </script>
 
 </body>
 </html>

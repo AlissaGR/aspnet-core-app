@@ -1,7 +1,7 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Inicio";
 }
-
+ *@
 @* <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
@@ -98,7 +98,7 @@
     </div>
 </section>
 
-<section class="section-padding overflow-hidden" style="padding-bottom:0">
+<section class="section-padding overflow-hidden" style="padding-bottom:0;padding-top:50px">
     <div class="container-lg">
         <div class="row">
             <div class="col-md-12">
@@ -109,8 +109,8 @@
                     <div class="d-flex align-items-center">
                         @* <a href="#" class="btn btn-primary me-2">Ver Todo</a> *@
                         <div class="swiper-buttons">
-                            <button class="swiper-prev category-carousel-prev btn btn-yellow">❮</button>
-                            <button class="swiper-next category-carousel-next btn btn-yellow">❯</button>
+                            <button class="swiper-prev category-carousel-home-prev btn btn-yellow">❮</button>
+                            <button class="swiper-next category-carousel-home-next btn btn-yellow">❯</button>
                         </div>
                     </div>
                 </div>
@@ -120,39 +120,39 @@
         <div class="row">
             <div class="col-md-12">
 
-                <div class="category-carousel swiper">
+                <div class="category-carousel-home swiper">
                     <div class="swiper-wrapper">
                         <a href="/Home/Productos?categoria=Blusas" class="nav-link swiper-slide text-center">
-                            <img src="~/images/Blusas/Blusa19-1.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Blusas</h4>
+                            <img src="~/images/Blusas/Blusa19-1.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Blusas</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Vestidos" class="nav-link swiper-slide text-center">
-                            <img src="images/Vestidos/V007.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Vestidos</h4>
+                            <img src="images/Vestidos/V007.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Vestidos</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Conjuntos" class="nav-link swiper-slide text-center">
-                            <img src="images/Conjuntos-Enterizos/E003.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Conjuntos y Enterizos</h4>
+                            <img src="images/Conjuntos-Enterizos/E003.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Conjuntos y Enterizos</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Pijamas" class="nav-link swiper-slide text-center">
-                            <img src="images/Pijamas/PI002.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Pijamas</h4>
+                            <img src="images/Pijamas/PI002.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Pijamas</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Pantalones" class="nav-link swiper-slide text-center">
-                            <img src="images/Pantalones/P004.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Pantalones</h4>
+                            <img src="images/Pantalones/P004.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Pantalones</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Casacas" class="nav-link swiper-slide text-center">
-                            <img src="images/Abrigos/A002-1.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Abrigos</h4>
+                            <img src="images/Abrigos/A002-1.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Abrigos</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Leggins" class="nav-link swiper-slide text-center">
-                            <img src="images/Deportivo/CO01-2.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Ropa Deportiva</h4>
+                            <img src="images/Deportivo/CO01-2.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Ropa Deportiva</h4>
                         </a>
                         <a href="/Home/Productos?categoria=Bolsos" class="nav-link swiper-slide text-center">
-                            <img src="images/Bolsos/Z002.png" class="img-fluid" alt="Category Thumbnail" style="max-height: 500px">
-                            <h4 class="fs-6 mt-3 fw-normal category-title">Bolsos y Mochilas</h4>
+                            <img src="images/Bolsos/Z002.png" class="img-fluid rounded-circle" alt="Category Thumbnail" style="height: 150px; width:150px; object-fit: cover">
+                            <h4 class="fs-6 mt-3 fw-bold category-title">Bolsos y Mochilas</h4>
                         </a>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
 
 
 
-<section id="popular-products" class=" products-carousel" style="padding-bottom:0">
+<section id="popular-products" class=" products-carousel" style="padding-bottom:50px">
     <div class="container-lg overflow-hidden py-3">
         <div class="row">
             <div class="col-md-12">
@@ -173,13 +173,7 @@
 
                     <h2 class="section-title text-capitalize">Productos Populares</h2>
 
-                    <div class="d-flex align-items-center">
-                        @* <a href="#" class="btn btn-primary me-2">Ver Todo</a> *@
-                        <div class="swiper-buttons">
-                            <button class="swiper-prev products-carousel-prev btn btn-primary">❮</button>
-                            <button class="swiper-next products-carousel-next btn btn-primary">❯</button>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>
@@ -187,135 +181,220 @@
         <div class="row">
             <div class="col-md-12">
 
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "V010" })" title="Abrigo">
-                                    <img src="images/Vestidos/V010-2.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Vestido body-con color albaricoque con hombros descubiertos</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.77.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.35.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                
+                    <div class="container-lg">
+                        <div class="row g-5">
+                            <main class="col-md-12">
+                                <div style="margin:27px">
+                                    @* <p>Showing 1–10 of 25 results</p> *@
+                                </div>
+                                <div class="product-grid row row-cols-2 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4">
+
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "V010" })" title="Abrigo">
+                                                    <img src="images/Vestidos/V010-2.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Vestido body-con color albaricoque con hombros descubiertos</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.35.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "C003" })" title="Casaca">
+                                                    <img src="images/Casacas/C003.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Chaqueta tipo camionero corta con cristales desgastados y detalles de cadena</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.65.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.65.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "B0027" })" title="Abrigo">
+                                                    <img src="images/Blusas/Blusa27.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Camiseta de cuello asimétrico y plisada</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.23.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "CA01" })" title="Abrigo">
+                                                    <img src="images/Cardigans/CA01-1.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Cárdigan de unicolor con mangas de murciélago</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.35.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "C007" })" title="Casaca">
+                                                    <img src="images/Casacas/C007.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Chaqueta de pana con bolsillos de solapa</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.55.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.55.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "B0024" })" title="Abrigo">
+                                                    <img src="images/Blusas/Blusa24.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Camiseta de cuello alto sin mangas de unicolor, minimalista</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.17.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "Z007" })" title="Abrigo">
+                                                    <img src="images/Bolsos/Z007.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">Mochila de moda, bolsa de viaje casual grande y multifuncional de gran capacidad, bolsillo portátil</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.60.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="product-item mb-4">
+                                            <figure>
+                                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "P004" })" title="Abrigo">
+                                                    <img src="images/Pantalones/P004.png" alt="Product Thumbnail" class="img-fluid">
+                                                </a>
+                                            </figure>
+                                            <div class="d-flex flex-column text-center">
+                                                <h3 class="fs-6 fw-normal">SHEIN Pantalon Jean negro simple y ajustados para uso diario con tobillos estrechos</h3>
+                                                <div class="d-flex justify-content-center align-items-center gap-2">
+                                                    @* <del>S/.77.00</del> *@
+                                                    <span class="text-dark fw-semibold">S/.68.00</span>
+                                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
-                            </div>
-                        </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "C003" })" title="Casaca" >
-                                    <img src="images/Casacas/C003.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Chaqueta tipo camionero corta con cristales desgastados y detalles de cadena</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.65.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.65.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "B0027" })" title="Abrigo">
-                                    <img src="images/Blusas/Blusa27.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Camiseta de cuello asimétrico y plisada</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.77.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.23.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
 
-                            </div>
+                            </main>
                         </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "CA01" })" title="Abrigo">
-                                    <img src="images/Cardigans/CA01-1.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Cárdigan de unicolor con mangas de murciélago</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.77.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.35.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "C007" })" title="Casaca">
-                                    <img src="images/Casacas/C007.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Chaqueta de pana con bolsillos de solapa</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.55.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.55.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "B0024" })" title="Abrigo">
-                                    <img src="images/Blusas/Blusa24.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Camiseta de cuello alto sin mangas de unicolor, minimalista</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.77.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.17.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="product-item swiper-slide mb-4">
-                            <figure>
-                                <a href=" @Url.Action("DetalleProductos", "Home", new { id = "A002" })" title="Abrigo">
-                                    <img src="images/Abrigos/A002-1.png" alt="Product Thumbnail" class="img-fluid">
-                                </a>
-                            </figure>
-                            <div class="d-flex flex-column text-center">
-                                <h3 class="fs-6 fw-normal">Abrigo de poncho de mujer marrón y mullido, abrigo de peluche</h3>
-                                <div class="d-flex justify-content-center align-items-center gap-2">
-                                    @* <del>S/.77.00</del> *@
-                                    <span class="text-dark fw-semibold">S/.77.00</span>
-                                    @* <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span> *@
-                                </div>
-
-                            </div>
-                        </div>
-                        
-
                     </div>
                 </div>
                 <!-- / products-carousel -->
 
+            <div class="d-flex justify-content-center mt-4">
+                <a href="/Home/Productos" class="btn btn-dark text-uppercase fs-6 rounded-pill px-4 py-2">Ver Todo</a>
             </div>
+
         </div>
+        
     </div>
+    
 </section>
 
 
 
 
 
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper('.category-carousel-home', {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: '.category-carousel-home-next',
+                prevEl: '.category-carousel-home-prev'
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 3
+                },
+                576: {
+                    slidesPerView: 3
+                },
+                768: {
+                    slidesPerView: 3
+                },
+                992: {
+                    slidesPerView: 4
+                },
+                1200: {
+                    slidesPerView: 5
+                }
+            }
+        });
+    });
+</script>
 
 
 
