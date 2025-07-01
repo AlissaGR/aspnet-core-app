@@ -20,7 +20,7 @@ namespace Mathise.Web.Page.Controllers
                 Id = "B001",
                 Nombre = "SHEIN Privé Camiseta con estampado floral de un hombro de manga farol",
                 Categoria = "Blusas",
-                Precio = 28.00m,
+                Precio = 22.00m,
                 PrecioAnterior = 35.00m,
                 Descuento = 20,
                 Descripcion = "SHEIN Privé Camiseta con estampado floral de un hombro de manga farol",
@@ -130,8 +130,9 @@ namespace Mathise.Web.Page.Controllers
                 Id = "B007",
                 Nombre = "SHEIN LUNE Blusa Sin Mangas Con Estampado Floral Y Escote En V",
                 Categoria = "Blusas",
-                Precio = 33.00m,
-                //PrecioAnterior = 60.00m,
+                Precio = 20.00m,
+                PrecioAnterior = 33.00m,
+                Descuento = 20,
                 Color = new List<string> { "Beige" },
                 Talla = new List<string> { "XL" },
                 Imagenes = new List<string>
@@ -343,9 +344,9 @@ namespace Mathise.Web.Page.Controllers
                 Id = "B0018",
                 Nombre = "SHEIN VCAY Blusa cruzada de manga corta con escote en V y estampado integral",
                 Categoria = "Blusas",
-                Precio = 26.00m,
-                //PrecioAnterior = 37.00m,
-                //Descuento = 20,
+                Precio = 19.00m,
+                PrecioAnterior = 26.00m,
+                Descuento = 20,
                 Color = new List<string> { "Rosado" },
                 Talla = new List<string> { "S"},
                 Imagenes = new List<string>
@@ -1812,9 +1813,9 @@ namespace Mathise.Web.Page.Controllers
                 Id = "E001",
                 Nombre = "SHEIN VCAY Mono de mujer de unicolor con cuello en V, cruzado, sin espalda, sin mangas",
                 Categoria = "Conjuntos",
-                Precio = 37.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
+                Precio = 29.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 10,
                 Color = new List<string> { "Negro" },
                 Talla = new List<string> { "S" },
                 Imagenes = new List<string>
@@ -1889,9 +1890,9 @@ namespace Mathise.Web.Page.Controllers
                 Id = "E005",
                 Nombre = "SHEIN Conjunto casual con camiseta de cuello redondo de manga corta y short con lazo en la cintura",
                 Categoria = "Conjuntos",
-                Precio = 37.00m,
-                //PrecioAnterior = 39.00m,
-                //Descuento = 20,
+                Precio = 20.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 20,
                 Color = new List<string> { "Ladrillo" },
                 Talla = new List<string> { "S" },
                 Imagenes = new List<string>
@@ -1949,9 +1950,9 @@ namespace Mathise.Web.Page.Controllers
                 Id = "PI003",
                 Nombre = "SHEIN Camisón de terciopelo con estampado de mariposas",
                 Categoria = "Pijamas",
-                Precio = 25.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
+                Precio = 17.00m,
+                PrecioAnterior = 25.00m,
+                Descuento = 10,
                 Color = new List<string> { "Negro" },
                 Talla = new List<string> { "S" },
                 Imagenes = new List<string>
@@ -2298,7 +2299,179 @@ namespace Mathise.Web.Page.Controllers
 
             
             // LIQUIDACION...
+            new Producto
+            {
+                Id = "B0021",
+                Nombre = "SHEIN LUNE Camiseta Sin Mangas De Mujer Con Estampado De Letras Y Corazones",
+                Categoria = "Liquidacion",
+                Precio = 10.00m,
+                PrecioAnterior = 25.00m,
+                Descuento = 20,
+                Color = new List<string> { "Gris" },
+                Talla = new List<string> { "S"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa21.png",
+                    "~/images/Blusas/Blusa21-1.png",
+                    "~/images/Blusas/Blusa21-2.png",
+                    "~/images/Blusas/Blusa21-3.png",
+                    "~/images/Blusas/Blusa21-4.png"
+                }
+            },
 
+            new Producto
+            {
+                Id = "B0012",
+                Nombre = "SHEIN Frenchy Blusa de mujer con escote en V, mangas con volantes y estampado floral y de olas, estilo \"Old Money\"",
+                Categoria = "Liquidacion",
+                Precio = 25.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 20,
+                Color = new List<string> { "Rosado" },
+                Talla = new List<string> { "M"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa12.png",
+                    "~/images/Blusas/Blusa12-1.png",
+                    "~/images/Blusas/Blusa12-2.png",
+                    "~/images/Blusas/Blusa12-3.png",
+                    "~/images/Blusas/Blusa12-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "B009",
+                Nombre = "SHEIN LUNE Camiseta gráfica casual de verano de punto con estampado jacquard para mujeres",
+                Categoria = "Liquidacion",
+                Precio = 17.00m,
+                PrecioAnterior = 33.00m,
+                Descuento = 25,
+                Color = new List<string> { "Fucsia" },
+                Talla = new List<string> { "M"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa9.png",
+                    "~/images/Blusas/Blusa9-1.png",
+                    "~/images/Blusas/Blusa9-2.png",
+                    "~/images/Blusas/Blusa9-3.png",
+                    "~/images/Blusas/Blusa9-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "B007",
+                Nombre = "SHEIN LUNE Blusa Sin Mangas Con Estampado Floral Y Escote En V",
+                Categoria = "Liquidacion",
+                Precio = 20.00m,
+                PrecioAnterior = 33.00m,
+                Descuento = 20,
+                Color = new List<string> { "Beige" },
+                Talla = new List<string> { "XL" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa7.png",
+                    "~/images/Blusas/Blusa7-1.png",
+                    "~/images/Blusas/Blusa7-2.png",
+                    "~/images/Blusas/Blusa7-3.png",
+                    "~/images/Blusas/Blusa7-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "B001",
+                Nombre = "SHEIN Privé Camiseta con estampado floral de un hombro de manga farol",
+                Categoria = "Liquidacion",
+                Precio = 22.00m,
+                PrecioAnterior = 35.00m,
+                Descuento = 20,
+                Descripcion = "SHEIN Privé Camiseta con estampado floral de un hombro de manga farol",
+                Color = new List<string> { "Blanco" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa1.png",
+                    "~/images/Blusas/Blusa1-1.png",
+                    "~/images/Blusas/Blusa1-2.png",
+                    "~/images/Blusas/Blusa1-3.png",
+                    "~/images/Blusas/Blusa1-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "B0018",
+                Nombre = "SHEIN VCAY Blusa cruzada de manga corta con escote en V y estampado integral",
+                Categoria = "Liquidacion",
+                Precio = 19.00m,
+                PrecioAnterior = 26.00m,
+                Descuento = 20,
+                Color = new List<string> { "Rosado" },
+                Talla = new List<string> { "S"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa18.png",
+                    "~/images/Blusas/Blusa18-1.png",
+                    "~/images/Blusas/Blusa18-2.png",
+                    "~/images/Blusas/Blusa18-3.png",
+                    "~/images/Blusas/Blusa18-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "B0014",
+                Nombre = "SHEIN Frenchy Top de tirantes con encaje y estampado floral",
+                Categoria = "Liquidacion",
+                Precio = 15.00m,
+                PrecioAnterior = 27.00m,
+                Descuento = 20,
+                Color = new List<string> { "Blanco" },
+                Talla = new List<string> { "S"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa14.png",
+                    "~/images/Blusas/Blusa14-1.png",
+                    "~/images/Blusas/Blusa14-2.png",
+                    "~/images/Blusas/Blusa14-3.png",
+                    "~/images/Blusas/Blusa14-4.png"
+                }
+            },
+             new Producto
+            {
+                Id ="B008",
+                Nombre = "SHEIN LUNE Camisa para mujer estampada de corte aleatorio",
+                Categoria = "Liquidacion",
+                Precio = 22.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 20,
+                Color = new List<string> { "Celeste" },
+                Talla = new List<string> { "M" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa8.png",
+                    "~/images/Blusas/Blusa8-1.png",
+                    "~/images/Blusas/Blusa8-2.png",
+                    "~/images/Blusas/Blusa8-3.png",
+                    "~/images/Blusas/Blusa8-4.png"
+                }
+            },
+             new Producto
+            {
+                Id = "B0015",
+                Nombre = "SHEIN Frenchy Camisa Casual De Mujer Sin Mangas De Longitud Media Con Estampado Floral",
+                Categoria = "Liquidacion",
+                Precio = 17.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 20,
+                Color = new List<string> { "Beige" },
+                Talla = new List<string> { "S"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa15.png",
+                    "~/images/Blusas/Blusa15-1.png",
+                    "~/images/Blusas/Blusa15-2.png",
+                    "~/images/Blusas/Blusa15-3.png",
+                    "~/images/Blusas/Blusa15-4.png"
+                }
+            },
             new Producto
             {
                 Id = "L001",
@@ -2478,7 +2651,120 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Liquidacion/L009-4.png"
                 }
             },
-
+            new Producto
+            {
+                Id = "V008",
+                Nombre = "SHEIN SXY Vestido ajustado de tirantes unicolor",
+                Categoria = "Liquidacion",
+                Precio = 15.00m,
+                PrecioAnterior = 38.00m,
+                Descuento = 25,
+                Color = new List<string> { "Rosado" },
+                Talla = new List<string> { "XS" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Vestidos/V008.png",
+                    "~/images/Vestidos/V008-1.png",
+                    "~/images/Vestidos/V008-2.png",
+                    "~/images/Vestidos/V008-3.png",
+                    "~/images/Vestidos/V008-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "V009",
+                Nombre = "SHEIN LUNE Vestido casual y holgado con cuello redondo con estampado de plantas",
+                Categoria = "Liquidacion",
+                Precio = 12.00m,
+                PrecioAnterior = 28.00m,
+                Descuento = 20,
+                Color = new List<string> { "Fucsia" },
+                Talla = new List<string> { "S","M"  },
+                Imagenes = new List<string>
+                {
+                    "~/images/Vestidos/V009.png",
+                    "~/images/Vestidos/V009-1.png",
+                    "~/images/Vestidos/V009-2.png",
+                    "~/images/Vestidos/V009-3.png",
+                    "~/images/Vestidos/V009-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "E004",
+                Nombre = "SHEIN EZwear Conjunto de dos piezas para mujer en unicolor sexy, ajustado al Body, sin tirantes, con top corto y mini falda",
+                Categoria = "Liquidacion",
+                Precio = 19.00m,
+                PrecioAnterior = 39.00m,
+                Descuento = 20,
+                Color = new List<string> { "Celeste" },
+                Talla = new List<string> { "L" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Conjuntos-Enterizos/E004.png",
+                    "~/images/Conjuntos-Enterizos/E004-1.png",
+                    "~/images/Conjuntos-Enterizos/E004-2.png",
+                    "~/images/Conjuntos-Enterizos/E004-3.png",
+                    "~/images/Conjuntos-Enterizos/E004-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "E005",
+                Nombre = "SHEIN Conjunto casual con camiseta de cuello redondo de manga corta y short con lazo en la cintura",
+                Categoria = "Liquidacion",
+                Precio = 20.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 20,
+                Color = new List<string> { "Ladrillo" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Conjuntos-Enterizos/E005.png",
+                    "~/images/Conjuntos-Enterizos/E005-1.png",
+                    "~/images/Conjuntos-Enterizos/E005-2.png",
+                    "~/images/Conjuntos-Enterizos/E005-3.png",
+                    "~/images/Conjuntos-Enterizos/E005-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "E001",
+                Nombre = "SHEIN VCAY Mono de mujer de unicolor con cuello en V, cruzado, sin espalda, sin mangas",
+                Categoria = "Liquidacion",
+                Precio = 29.00m,
+                PrecioAnterior = 37.00m,
+                Descuento = 10,
+                Color = new List<string> { "Negro" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Conjuntos-Enterizos/E001.png",
+                    "~/images/Conjuntos-Enterizos/E001-1.png",
+                    "~/images/Conjuntos-Enterizos/E001-2.png",
+                    "~/images/Conjuntos-Enterizos/E001-3.png",
+                    "~/images/Conjuntos-Enterizos/E001-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "PI003",
+                Nombre = "SHEIN Camisón de terciopelo con estampado de mariposas",
+                Categoria = "Liquidacion",
+                Precio = 17.00m,
+                PrecioAnterior = 25.00m,
+                Descuento = 10,
+                Color = new List<string> { "Negro" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Pijamas/PI003.png",
+                    "~/images/Pijamas/PI003-1.png",
+                    "~/images/Pijamas/PI003-2.png",
+                    "~/images/Pijamas/PI003-3.png",
+                    "~/images/Pijamas/PI003-4.png"
+                }
+            },
 
             // DEPORTIVO...
             // CAMISETAS...
