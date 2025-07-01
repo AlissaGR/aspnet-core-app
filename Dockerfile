@@ -16,13 +16,11 @@ ENV LANG=es_ES.UTF-8
 ENV LANGUAGE=es_ES:es
 ENV LC_ALL=es_ES.UTF-8
 
-# Publica el proyecto en Release
-RUN dotnet publish Mathise.Web.Page/Mathise.Web.Page.csproj -c Release -o /app/publish
+# Asegura que el directorio de publicación exista y publica en Release
+RUN mkdir -p /app/publish && dotnet publish Mathise.Web.Page/Mathise.Web.Page.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 
 ENTRYPOINT ["dotnet", "Mathise.Web.Page.dll"]
-
-
