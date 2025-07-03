@@ -35,24 +35,7 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Blusas/Blusa1-4.png"
                 }
             },
-            new Producto
-            {
-                Id = "B002",
-                Nombre = "SHEIN Frenchy Camiseta de cuello cruzado manga de campana",
-                Categoria = "Blusas",
-                Precio = 35.00m,
-                //PrecioAnterior = 60.00m,
-                Color = new List<string> { "Albaricoque" },
-                Talla = new List<string> { "L" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Blusas/Blusa2.png",
-                    "~/images/Blusas/Blusa2-1.png",
-                    "~/images/Blusas/Blusa2-2.png",
-                    "~/images/Blusas/Blusa2-3.png",
-                    "~/images/Blusas/Blusa2-4.png"
-                }
-            },
+            
             new Producto
             {
                 Id = "B003",
@@ -89,24 +72,7 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Blusas/Blusa4-4.png"
                 }
             },
-            new Producto
-            {
-                Id = "B005",
-                Nombre = "SHEIN Camiseta negra con rayas blancas de cuello alto",
-                Categoria = "Blusas",
-                Precio = 23.00m,
-                //PrecioAnterior = 60.00m,
-                Color = new List<string> { "Negro" },
-                Talla = new List<string> { "M" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Blusas/Blusa5.png",
-                    "~/images/Blusas/Blusa5-1.png",
-                    "~/images/Blusas/Blusa5-2.png",
-                    "~/images/Blusas/Blusa5-3.png",
-                    "~/images/Blusas/Blusa5-4.png"
-                }
-            },
+            
             new Producto
             {
                 Id = "B006",
@@ -381,26 +347,6 @@ namespace Mathise.Web.Page.Controllers
 
             new Producto
             {
-                Id = "B0020",
-                Nombre = "SHEIN PETITE 2 piezas Camiseta de mujer de primavera con cuello de pico sólido",
-                Categoria = "Blusas",
-                Precio = 37.00m,
-                //PrecioAnterior = 37.00m,
-                //Descuento = 20,
-                Color = new List<string> { "Blanco y Negro" },
-                Talla = new List<string> { "L"},
-                Imagenes = new List<string>
-                {
-                    "~/images/Blusas/Blusa20.png",
-                    "~/images/Blusas/Blusa20-1.png",
-                    "~/images/Blusas/Blusa20-2.png",
-                    "~/images/Blusas/Blusa20-3.png",
-                    "~/images/Blusas/Blusa20-4.png"
-                }
-            },
-
-            new Producto
-            {
                 Id = "B0021",
                 Nombre = "SHEIN LUNE Camiseta Sin Mangas De Mujer Con Estampado De Letras Y Corazones",
                 Categoria = "Blusas",
@@ -441,26 +387,6 @@ namespace Mathise.Web.Page.Controllers
 
             new Producto
             {
-                Id = "B0023",
-                Nombre = "SHEIN Essnce Chaleco de punto asimétrico para mujer",
-                Categoria = "Blusas",
-                Precio = 10.00m,
-                PrecioAnterior = 22.00m,
-                Descuento = 20,
-                Color = new List<string> { "Beige" },
-                Talla = new List<string> { "M"},
-                Imagenes = new List<string>
-                {
-                    "~/images/Blusas/Blusa23.png",
-                    "~/images/Blusas/Blusa23-1.png",
-                    "~/images/Blusas/Blusa23-2.png",
-                    "~/images/Blusas/Blusa23-3.png",
-                    "~/images/Blusas/Blusa23-4.png"
-                }
-            },
-
-            new Producto
-            {
                 Id = "B0024",
                 Nombre = "SHEIN Essnce Camiseta de cuello alto sin mangas de unicolor, minimalista, para uso casual diario",
                 Categoria = "Blusas",
@@ -476,26 +402,6 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Blusas/Blusa24-2.png",
                     "~/images/Blusas/Blusa24-3.png",
                     "~/images/Blusas/Blusa24-4.png"
-                }
-            },
-
-            new Producto
-            {
-                Id = "B0025",
-                Nombre = "EMERY ROSE Ropa de otoño Camisetas básicas para mujeres Parte superior con estampado de leopardo",
-                Categoria = "Blusas",
-                Precio = 27.00m,
-                //PrecioAnterior = 37.00m,
-                //Descuento = 20,
-                Color = new List<string> { "Beige" },
-                Talla = new List<string> { "M"},
-                Imagenes = new List<string>
-                {
-                    "~/images/Blusas/Blusa25.png",
-                    "~/images/Blusas/Blusa25-1.png",
-                    "~/images/Blusas/Blusa25-2.png",
-                    "~/images/Blusas/Blusa25-3.png",
-                    "~/images/Blusas/Blusa25-4.png"
                 }
             },
 
@@ -561,24 +467,7 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Pantalones/P001-4.png"
                 }
             },
-            new Producto
-            {
-                Id = "P002",
-                Nombre = "SHEIN MOOSTA Pantalon casual de mujer negro con ajuste ceñido",
-                Categoria = "Pantalones",
-                Precio = 68.00m,
-                //PrecioAnterior = 60.00m,
-                Color = new List<string> { "Negro" },
-                Talla = new List<string> { "M" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Pantalones/P002.png",
-                    "~/images/Pantalones/P002-1.png",
-                    "~/images/Pantalones/P002-2.png",
-                    "~/images/Pantalones/P002-3.png",
-                    "~/images/Pantalones/P002-4.png"
-                }
-            },
+            
              new Producto
             {
                 Id = "P003",
@@ -1537,26 +1426,6 @@ namespace Mathise.Web.Page.Controllers
 
 
             // VESTIDOS...
-
-            new Producto
-            {
-                Id = "V001",
-                Nombre = "SHEIN AiiRZ Elegante minivestido con cuello alto, mangas de globo y detalle en la cintura alta",
-                Categoria = "Vestidos",
-                Precio = 50.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
-                Color = new List<string> { "Blanco" },
-                Talla = new List<string> { "S" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Vestidos/V001.png",
-                    "~/images/Vestidos/V001-1.png",
-                    "~/images/Vestidos/V001-2.png",
-                    "~/images/Vestidos/V001-3.png",
-                    "~/images/Vestidos/V001-4.png"
-                }
-            },
             new Producto
             {
                 Id = "V002",
@@ -1699,7 +1568,7 @@ namespace Mathise.Web.Page.Controllers
                 PrecioAnterior = 28.00m,
                 Descuento = 20,
                 Color = new List<string> { "Fucsia" },
-                Talla = new List<string> { "S","M"  },
+                Talla = new List<string> { "S"  },
                 Imagenes = new List<string>
                 {
                     "~/images/Vestidos/V009.png",
@@ -1718,7 +1587,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Beige" },
-                Talla = new List<string> { "M","L" },
+                Talla = new List<string> { "L" },
                 Imagenes = new List<string>
                 {
                     "~/images/Vestidos/V010.png",
@@ -1907,25 +1776,7 @@ namespace Mathise.Web.Page.Controllers
 
             // Ropa de dormir...
 
-            new Producto
-            {
-                Id = "PI001",
-                Nombre = "SHEIN Elegante camisón con tirantes finos y abertura lateral",
-                Categoria = "Pijamas",
-                Precio = 27.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
-                Color = new List<string> { "Vino" },
-                Talla = new List<string> { "S" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Pijamas/PI001.png",
-                    "~/images/Pijamas/PI001-1.png",
-                    "~/images/Pijamas/PI001-2.png",
-                    "~/images/Pijamas/PI001-3.png",
-                    "~/images/Pijamas/PI001-4.png"
-                }
-            },
+            
             new Producto
             {
                 Id = "PI002",
@@ -2299,6 +2150,26 @@ namespace Mathise.Web.Page.Controllers
 
             
             // LIQUIDACION...
+            
+            new Producto
+            {
+                Id = "B0022",
+                Nombre = "SHEIN LUNE Camiseta básica de manga corta y escote redondo para mujer, ideal para festivales de música en verano",
+                Categoria = "Liquidacion",
+                Precio = 16.00m,
+                PrecioAnterior = 25.00m,
+                Descuento = 20,
+                Color = new List<string> { "Gris" },
+                Talla = new List<string> { "M","L"},
+                Imagenes = new List<string>
+                {
+                    "~/images/Blusas/Blusa22.png",
+                    "~/images/Blusas/Blusa22-1.png",
+                    "~/images/Blusas/Blusa22-2.png",
+                    "~/images/Blusas/Blusa22-3.png",
+                    "~/images/Blusas/Blusa22-4.png"
+                }
+            },
             new Producto
             {
                 Id = "B0021",
