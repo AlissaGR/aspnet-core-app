@@ -468,24 +468,6 @@ namespace Mathise.Web.Page.Controllers
                 }
             },
             
-             new Producto
-            {
-                Id = "P003",
-                Nombre = "SHEIN Essnce Jeans Azul informales ajustados para mujer con bolsillos, versátiles",
-                Categoria = "Pantalones",
-                Precio = 70.00m,
-                //PrecioAnterior = 60.00m,
-                Color = new List<string> { "Azul" },
-                Talla = new List<string> { "M" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Pantalones/P003.png",
-                    "~/images/Pantalones/P003-1.png",
-                    "~/images/Pantalones/P003-2.png",
-                    "~/images/Pantalones/P003-3.png",
-                    "~/images/Pantalones/P003-4.png"
-                }
-            },
               new Producto
             {
                 Id = "P004",
@@ -669,6 +651,83 @@ namespace Mathise.Web.Page.Controllers
 
 
             // Casacas...
+             new Producto
+            {
+                Id = "C021",
+                Nombre = "SHEIN EZwear Chaquetas acolchadas con forro de peluche, chaqueta de moto abierta por delante, con cremallera",
+                Categoria = "Casacas",
+                Precio = 55.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Caqui" },
+                Talla = new List<string> { "S","L" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Casacas/C021.png",
+                    "~/images/Casacas/C021-1.png",
+                    "~/images/Casacas/C021-2.png",
+                    "~/images/Casacas/C021-3.png",
+                    "~/images/Casacas/C021-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "C020",
+                Nombre = "SHEIN Essnce Chaqueta con cierre de manga larga y cuello béisbol unicolor",
+                Categoria = "Casacas",
+                Precio = 37.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Rosa Vieja" },
+                Talla = new List<string> { "S","M","L" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Casacas/C020.png",
+                    "~/images/Casacas/C020-1.png",
+                    "~/images/Casacas/C020-2.png",
+                    "~/images/Casacas/C020-3.png",
+                    "~/images/Casacas/C020-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "C019",
+                Nombre = "SHEIN Chaqueta corta de cremallera estilo moto, con cremallera, hombros caídos, solapa y ajuste regular",
+                Categoria = "Casacas",
+                Precio = 67.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Negro" },
+                Talla = new List<string> { "M" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Casacas/C019.png",
+                    "~/images/Casacas/C019-1.png",
+                    "~/images/Casacas/C019-2.png",
+                    "~/images/Casacas/C019-3.png",
+                    "~/images/Casacas/C019-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "C018",
+                Nombre = "SHEIN LUNE Abrigo chaleco con patrón de cuadros teddy",
+                Categoria = "Casacas",
+                Precio = 33.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Gris" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Casacas/C018.png",
+                    "~/images/Casacas/C018-1.png",
+                    "~/images/Casacas/C018-2.png",
+                    "~/images/Casacas/C018-3.png",
+                    "~/images/Casacas/C018-4.png"
+                }
+            },
+            
 
             new Producto
             {
@@ -775,7 +834,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Beige" },
-                Talla = new List<string> { "S","M" },
+                Talla = new List<string> { "S" },
                 Imagenes = new List<string>
                 {
                     "~/images/Casacas/C006.png",
@@ -927,7 +986,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Azul" },
-                Talla = new List<string> { "S","M","L" },
+                Talla = new List<string> { "S","L" },
                 Imagenes = new List<string>
                 {
                     "~/images/Casacas/C014.png",
@@ -965,7 +1024,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Albaricoque" },
-                Talla = new List<string> { "M","L" },
+                Talla = new List<string> { "L" },
                 Imagenes = new List<string>
                 {
                     "~/images/Casacas/C016.png",
@@ -975,26 +1034,6 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Casacas/C016-4.png"
                 }
             },
-            new Producto
-            {
-                Id = "C017",
-                Nombre = "SHEIN MUSMIN Chaqueta corta de unicolor de manga larga",
-                Categoria = "Casacas",
-                Precio = 60.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
-                Color = new List<string> { "Marrón" },
-                Talla = new List<string> { "S","M","L" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Casacas/C017.png",
-                    "~/images/Casacas/C017-1.png",
-                    "~/images/Casacas/C017-2.png",
-                    "~/images/Casacas/C017-3.png",
-                    "~/images/Casacas/C017-4.png"
-                }
-            },
-
             
             // POLERAS...
 
@@ -1015,26 +1054,6 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Poleras/PO01-2.png",
                     "~/images/Poleras/PO01-3.png",
                     "~/images/Poleras/PO01-4.png"
-                }
-            },
-
-            new Producto
-            {
-                Id = "PO02",
-                Nombre = "SHEIN EZwear Sudadera para mujer de hombros abiertos, informal, de estilo minimalista",
-                Categoria = "Poleras",
-                Precio = 35.00m,
-                //PrecioAnterior = 50.00m,
-                //Descuento = 10,
-                Color = new List<string> { "Negro" },
-                Talla = new List<string> { "L" },
-                Imagenes = new List<string>
-                {
-                    "~/images/Poleras/PO02.png",
-                    "~/images/Poleras/PO02-1.png",
-                    "~/images/Poleras/PO02-2.png",
-                    "~/images/Poleras/PO02-3.png",
-                    "~/images/Poleras/PO02-4.png"
                 }
             },
 
@@ -1167,7 +1186,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Azul Marino" },
-                Talla = new List<string> { "S","M","L" },
+                Talla = new List<string> { "S"},
                 Imagenes = new List<string>
                 {
                     "~/images/Poleras/PO09.png",
@@ -1195,6 +1214,44 @@ namespace Mathise.Web.Page.Controllers
                     "~/images/Poleras/PO10-2.png",
                     "~/images/Poleras/PO10-3.png",
                     "~/images/Poleras/PO10-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "PO11",
+                Nombre = "SHEIN SUMWON Sudadera con capucha de corte corto con mangas completas y bordes sin acabar",
+                Categoria = "Poleras",
+                Precio = 47.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Gris Claro" },
+                Talla = new List<string> { "XS" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Poleras/PO11.png",
+                    "~/images/Poleras/PO11-1.png",
+                    "~/images/Poleras/PO11-2.png",
+                    "~/images/Poleras/PO11-3.png",
+                    "~/images/Poleras/PO11-4.png"
+                }
+            },
+            new Producto
+            {
+                Id = "PO12",
+                Nombre = "SHEIN SUMWON WOMEN Sudadera corta con capucha con cordón estilo loungewea",
+                Categoria = "Poleras",
+                Precio = 49.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Azul Marino" },
+                Talla = new List<string> { "S" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Poleras/PO12.png",
+                    "~/images/Poleras/PO12-1.png",
+                    "~/images/Poleras/PO12-2.png",
+                    "~/images/Poleras/PO12-3.png",
+                    "~/images/Poleras/PO12-4.png"
                 }
             },
 
@@ -2160,7 +2217,7 @@ namespace Mathise.Web.Page.Controllers
                 PrecioAnterior = 25.00m,
                 Descuento = 20,
                 Color = new List<string> { "Gris" },
-                Talla = new List<string> { "M","L"},
+                Talla = new List<string> { "M"},
                 Imagenes = new List<string>
                 {
                     "~/images/Blusas/Blusa22.png",
