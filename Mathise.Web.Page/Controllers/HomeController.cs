@@ -651,6 +651,25 @@ namespace Mathise.Web.Page.Controllers
 
 
             // Casacas...
+            new Producto
+            {
+                Id = "C022",
+                Nombre = "SHEIN Chaqueta Casual A Cuadros Estilo Camisa Con Bolsillo",
+                Categoria = "Casacas",
+                Precio = 45.00m,
+                //PrecioAnterior = 50.00m,
+                //Descuento = 10,
+                Color = new List<string> { "Multicolor" },
+                Talla = new List<string> { "S","L" },
+                Imagenes = new List<string>
+                {
+                    "~/images/Casacas/C022.jpg",
+                    "~/images/Casacas/C022-1.jpg",
+                    "~/images/Casacas/C022-2.jpg",
+                    "~/images/Casacas/C022-3.jpg",
+                    "~/images/Casacas/C022-4.jpg"
+                }
+            },
              new Producto
             {
                 Id = "C021",
@@ -929,7 +948,7 @@ namespace Mathise.Web.Page.Controllers
                 //PrecioAnterior = 50.00m,
                 //Descuento = 10,
                 Color = new List<string> { "Leopardo" },
-                Talla = new List<string> { "S","M","L"  },
+                Talla = new List<string> { "M"  },
                 Imagenes = new List<string>
                 {
                     "~/images/Casacas/C011.png",
